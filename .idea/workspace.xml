@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27f1b775-6f3b-4345-b4e3-2da165e8e66d" name="Changes" comment="add dir" />
+    <list default="true" id="27f1b775-6f3b-4345-b4e3-2da165e8e66d" name="Changes" comment="atomic">
+      <change afterPath="$PROJECT_DIR$/vmindexdb/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +46,7 @@
     &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/evan&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/evan/ctripwork/doc/read&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
@@ -70,7 +75,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fastcache" />
     <MESSAGE value="add dir" />
-    <option name="LAST_COMMIT_MESSAGE" value="add dir" />
+    <MESSAGE value="fast cache" />
+    <MESSAGE value="atomic" />
+    <option name="LAST_COMMIT_MESSAGE" value="atomic" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
