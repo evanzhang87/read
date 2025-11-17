@@ -1,0 +1,14 @@
+{
+  "@timestamp": "2025-11-17T09:07:05.092397906Z",
+  "host": "HOSTNAME",
+  "metadata": {
+    "data": {
+      "content": "test value"
+    }
+  },
+  "vector": {
+    "component_id": "win_parser",
+    "component_kind": "transform",
+    "component_type": "remap"
+  }
+}
