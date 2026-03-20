@@ -6,6 +6,11 @@
 ### 十二平均律 
 ```
 C  C# D  D# E  F  F# G  G# A  A# B
+
+A# B C  C# D  D# E  F  F# G  G# A
+
+A# C D D# F G A
+6# 1 2 2# 4 5 6
 ```
 ###
 ``` 音程定义

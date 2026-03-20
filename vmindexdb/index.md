@@ -26,7 +26,7 @@ measurementB{ip="10.1.1.1", host: "mymacbook"} 10003
 这里的格式为 [1] [tag] [metricIDs], 其中[1]为索引类型，枚举值，Tag->MetricID索引这个值固定为1，[tag]是一组键值对，注意只有一组，[metricIDs]是一个列表，值的含义是包含了这个键值对的metricID列表
 相信到这里你已经能猜到查询的过程里一定有一步查交集了。
 
-假设我的查询语句为 measurementA{ip="10.1.1.1", host: "mymacbook"}
+假设我的查询语句为 measurementA{ip="10.1.1.1", host="mymacbook"}
 那么查询的步骤为: 
 1. 拆分tags __name__="measurementA" ip="10.1.1.1" host: "mymacbook" 
 2. 查询tags索引, 分别得到metricIDs列表 [ 10001,10002 ] [ 10001,10003 ] [ 10001,10003 ]
